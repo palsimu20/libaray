@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IssuseBook"
+    android:orientation="vertical"
+    android:background="@drawable/lib2">
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Welcome On Issue Page"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#FBFCFD"
+        android:background="#0D3269"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/stname"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:background="#FBFCFD"
+        android:layout_gravity="center"
+        android:hint="Student Name"
+        android:textColorHint="#111111"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/bookname"
+        android:background="#FBFCFD"
+
+        android:textColorHint="#111111"
+        android:hint="Book name"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FBFCFD"
+
+        android:textColorHint="#111111"
+        android:id="@+id/bookId"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Book ID"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/date"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FBFCFD"
+
+        android:textColorHint="#111111"
+        android:hint="From date"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Due date"
+        android:id="@+id/date1"
+        android:layout_gravity="center"
+        android:background="#FBFCFD"
+
+        android:textColorHint="#111111"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/request"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#FBFCFD"
+        android:background="#0D3269"
+        android:text="Request"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

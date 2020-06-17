@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="@drawable/lib2"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        android:gravity="center"
+        android:textColor="#FBFCFD"
+        android:background="#0D3269"
+        android:textSize="25dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Book ID"
+        android:layout_marginTop="20dp"
+       android:layout_gravity="center"
+        android:background="#FBFCFD"
+        android:textColorHint="#111111"
+        android:inputType="number"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#FBFCFD"
+        android:textColorHint="#111111"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/bookname"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Book Author name"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#FBFCFD"
+        android:textColorHint="#111111"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#FBFCFD"
+        android:textColorHint="#111111"
+        android:layout_height="wrap_content"
+        android:hint="Book code"
+        android:inputType="text"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/code1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Book Price"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:background="#FBFCFD"
+        android:textColorHint="#111111"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Add"
+        android:textColor="#FBFCFD"
+        android:background="#0D3269"
+         android:onClick="f1"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

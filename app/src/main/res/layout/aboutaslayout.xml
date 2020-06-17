@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/backone"  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D3269"
+        android:gravity="center"
+
+        android:text="Modules of Libary Mangement"
+        android:textColor="#fdfbfb"
+        android:textSize="27dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="There are four modules:--"
+
+                android:textColor="#FBFCFD"
+
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="Admin:--"
+                android:textColor="#111111"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:text="A librarian is a person who works professionally in a library,providing access to information andsometimes  social or technical programming to users. In addition, librarians provide instruction on information literacy."
+                android:textColor="#FBFCFD"
+
+
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Student:--"
+                android:textColor="#111111"
+                android:textSize="25dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+
+                android:layout_marginTop="10dp"
+
+                android:text="User studies, User needs, User assessment, University. library use, academic library use, undergraduate library use. 1. Introduction The academic libraries have been described as the “heart” of the learning community, providing a place for students and faculty to conduct their
+                research and advance their knowledge."
+                android:textColor="#FBFCFD"
+                android:textSize="19dp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Share:--"
+                android:textColor="#111111"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="1dp"
+android:textSize="19dp"
+                android:text="The App Library displays all of the apps that you have created and those that have been shared with you by others. The App Library enables you to: Upload new app APKs."
+                android:textColor="#FBFCFD" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="Send Feedback:--"
+                android:textColor="#111111"
+                android:textColorHint="#000000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:textSize="19dp"
+
+                android:text="I think that you're missing some books that would be good for your collection.
+I think it would be beneficial if the library could be open at least one day a week until 11 pm. My roommates are loud and trying to get those late night assignments done is hard when its loud.
+Please let me know what the library's policy on children is?"
+                android:textColor="#FBFCFD"
+                 />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

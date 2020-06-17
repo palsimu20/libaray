@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:background="@drawable/lib2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textColor="#fafafa"
+        android:layout_marginTop="1dp"
+        android:textSize="30dp"
+        android:textColorHint="#000000"
+        android:background="#0D3269"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/admin1"/>
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="200dp"
+        android:textColorHint="#111111"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+
+        android:hint="Enter the user ID"
+        android:gravity="center"
+
+        android:background="#FBFCFD"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/password1"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColorHint="#111111"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:background="#FBFCFD"
+        android:inputType="textPassword"
+
+        android:gravity="center"/>
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="45dp"
+        android:textColorHint="#000000"
+        android:background="#0D3269"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

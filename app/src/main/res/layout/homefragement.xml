@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backone"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:text="Home page"
+        android:textSize="29dp"
+        android:textColor="#FBFCFD"
+        android:background="#0D3269"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:textColor="#FCFDFD"
+            android:text="An integrated library system, also known
+            as a library management system, is an enterprise resource planning system for a
+             library, used to track items owned, orders made, bills paid,
+              and patrons who have borrowed" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+
+

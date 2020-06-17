@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here you can send Feedback "
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#0D3269"
+
+        android:textColor="#ffffff"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="your pals65550@gmail.com"
+
+        android:gravity="center"
+        android:textColorHint="#000000"
+        android:background="#ffffff"
+        android:enabled="false"/>
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"></View>
+
+    <EditText
+        android:layout_marginTop="35dp"
+        android:id="@+id/subject"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+
+        android:hint="subject of your feedback"
+        android:lines="4"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/msh"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:hint="Enter the some msg feedback"
+        android:lines="5"
+
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:layout_marginTop="35dp"
+        android:background="#0D3269"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

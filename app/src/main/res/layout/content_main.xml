@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ftlayout"
+        android:background="@drawable/lib2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="#faf6f6"
+            android:textSize="25dp"
+            android:background="#bd100f0f"
+            android:textStyle="bold"
+            android:text="Libary  Management System"
+            android:gravity="center"/>
+        <ViewFlipper
+
+            android:id="@+id/viewflipper"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:background="#f7f5f5"
+            android:layout_marginTop="40dp">
+
+        </ViewFlipper>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textColor="#faf6f6"
+            android:textSize="25dp"
+            android:background="#bd100f0f"
+            android:textStyle="bold"
+            android:text="Welcome"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="469dp"
+            android:textColor="#faf6f6"
+            android:textSize="15dp"
+            android:background="#bd100f0f"
+            android:textStyle="bold"
+            android:text="Developed By:"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="490dp"
+            android:textColor="#faf6f6"
+            android:textSize="15dp"
+            android:background="#bd100f0f"
+            android:textStyle="bold"
+            android:text="Seema pal And Pooja yadav"
+            android:gravity="center"/>
+
+
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ftlayout1"></FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
